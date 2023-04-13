@@ -46,10 +46,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +54,24 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color:#ffffff
+}
+
 
 .float-left {
     float: left;
@@ -69,10 +83,21 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .benefits {
@@ -86,106 +111,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+.benefit-lead,
+.benefit-cost,
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-cost h3,
 .benefit-brand h3 {
-    margin-bottom: 10px;
+    margin-bottom: 10px ;
     text-align: center;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
-    margin: 10px auto;
+    margin: 10px;
     max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
@@ -195,6 +140,68 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 1024px) {
+   .header {
+    max-width: 100%;
+   }
+   .benefits,
+   .content {
+    max-width: 100%;
+    margin-left: 75px;
+   }
+   .benefits {
+        margin-right: 20px;
+        padding: 20px;
+        clear: both;
+        float: left;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        height: 50%;
+   }
+   .search-engine-optimization img,
+   .social-media-marketing img,
+   .online-reputation-management img {
+        max-height: 120px;
+   }
+}
+
+   @media screen and (max-width: 768px) {
+    .header {
+        max-width: 100%;
+   }
+   .content,
+   .benefits {
+        max-width: 100%;
+        margin-left: 75px;
+    }
+    .benefits {
+        margin-right: 20px;
+        padding: 20px;
+        clear: both;
+        float: left;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        height: 50%;
+    }
+    .search-engine-optimization img,
+    .online-reputation-management img,
+    .social-media-marketing img{
+        max-width: 110px;
+    }
+    .search-engine-optimization,
+    .online-reputation-management,
+    .social-media-marketing {
+        max-height: 450px;
+    }
+    .search-engine-optimization h2,
+    .online-reputation-management h2,
+    .social-media-marketing h2{
+        font-size: 20px;
+    }
+   }
