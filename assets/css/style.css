@@ -10,14 +10,11 @@ body {
 
 a {
     color: #ffffff;
-    text-decoration: none;
 }
 
 p {
     font-size: 16px;
 }
-
-
 
 header {
     padding: 20px;
@@ -45,28 +42,20 @@ header nav {
     font-size: 20px;
 }
 
-
-
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-
-    
-    
-
 mark.hero {
     margin-bottom: 25px;
 }
-
 
 mark.hero img {
     height: 800px;
     width: 100%;
     object-fit: cover;
 }
-
 
 section.content {
     width: 75%;
@@ -118,7 +107,7 @@ aside.benefits article.benefit {
     color: #ffffff;
 }
 
-aside.benefits article.benefit h2{
+aside.benefits article.benefit h3{
     font-size: 1.2rem;
     margin-bottom: 10px;
     text-align: center;
@@ -130,8 +119,6 @@ aside.benefits article.benefit img {
     max-width: 150px;
 }
 
-
-
 footer {
     padding: 30px;
     clear: both;
@@ -139,10 +126,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
-
-
-
-
